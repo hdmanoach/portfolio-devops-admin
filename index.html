@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manoach HOSSOU DODO | Portfolio DevOps & Admin Système</title>
+    <meta
+      name="description"
+      content="Portfolio de Manoach HOSSOU DODO - Admin Système, DevOps, Infrastructure, Sécurité, Cloud."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">M<span>.</span>H</div>
+        <nav>
+          <a href="#about">À propos</a>
+          <a href="#skills">Compétences</a>
+          <a href="#projects">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Admin Système • DevOps • Infrastructure</p>
+            <h1>Je conçois, sécurise et automatise des infrastructures informatiques.</h1>
+            <p class="lead">
+              Passionné par l’administration système, la supervision des serveurs,
+              la sécurité réseau et l’automatisation DevOps. Je mets en œuvre des
+              solutions concrètes autour de Linux, Windows Server, conteneurisation,
+              monitoring et CI/CD.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">Voir mes projets</a>
+              <a class="btn secondary" href="#contact">Me contacter</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>7+</strong><span>projets techniques</span></li>
+              <li><strong>Linux</strong><span>Administration & sécurité</span></li>
+              <li><strong>DevOps</strong><span>Automation & monitoring</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card">
+              <div class="panel-head">
+                <span class="dot green"></span>
+                <span class="dot yellow"></span>
+                <span class="dot red"></span>
+              </div>
+              <div class="metrics">
+                <div class="metric">
+                  <span class="label">CPU</span>
+                  <strong>42%</strong>
+                </div>
+                <div class="metric">
+                  <span class="label">RAM</span>
+                  <strong>63%</strong>
+                </div>
+                <div class="metric">
+                  <span class="label">Disque</span>
+                  <strong>78%</strong>
+                </div>
+              </div>
+              <div class="chart-bars">
+                <span style="height: 45%"></span>
+                <span style="height: 70%"></span>
+                <span style="height: 55%"></span>
+                <span style="height: 82%"></span>
+                <span style="height: 68%"></span>
+                <span style="height: 90%"></span>
+                <span style="height: 75%"></span>
+              </div>
+              <div class="status-row">
+                <span class="pill success">Services OK</span>
+                <span class="pill danger">Alertes actives</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <p class="section-tag">À propos</p>
+          <h2>Un profil orienté infrastructure, sécurité et automatisation.</h2>
+          <p>
+            Je m’intéresse particulièrement à l’administration système, la supervision
+            d’infrastructures, la sécurité des services et les automatisations DevOps.
+            J’ai conçu plusieurs projets pratiques autour de Linux, Windows Server, Docker,
+            réseau, pare-feu, monitoring et CI/CD pour développer des compétences utiles
+            dans un environnement professionnel.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <p class="section-tag">Compétences</p>
+          <h2>Les domaines que je maîtrise et que je souhaite approfondir.</h2>
+
+          <div class="skill-grid">
+            <div class="skill-card">
+              <h3>Administration système</h3>
+              <ul>
+                <li>Linux</li>
+                <li>Windows Server</li>
+                <li>Active Directory</li>
+                <li>DHCP / DNS / GPO</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Réseau</h3>
+              <ul>
+                <li>VLAN</li>
+                <li>Subnetting</li>
+                <li>Routage inter-VLAN</li>
+                <li>ACL et sécurité réseau</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>DevOps</h3>
+              <ul>
+                <li>GitHub Actions</li>
+                <li>CI/CD</li>
+                <li>Docker</li>
+                <li>Docker Compose</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Monitoring & Sécurité</h3>
+              <ul>
+                <li>Supervision système</li>
+                <li>Alertes SMTP / Discord</li>
+                <li>Wazuh</li>
+                <li>Firewalls / pare-feu</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="section-tag">Projets</p>
+          <h2>Les projets les plus représentatifs pour un stage en Admin Système / DevOps</h2>
+
+          <div class="project-grid">
+            <article class="project-card featured">
+              <div class="project-badge">Admin Linux</div>
+              <h3>Linux Manager</h3>
+              <p>
+                Interface web Flask pour administrer un serveur Linux : utilisateurs,
+                groupes, permissions, tâches cron, ACL, pare-feu et journal d’audit.
+              </p>
+              <div class="project-meta">
+                <span>Linux</span>
+                <span>Flask</span>
+                <span>Sécurité</span>
+              </div>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-badge">Monitoring</div>
+              <h3>Linux System Monitor</h3>
+              <p>
+                Tableau de bord DevOps pour surveiller CPU, RAM, disque, services,
+                processus et historique de performance avec alertes.
+              </p>
+              <div class="project-meta">
+                <span>DevOps</span>
+                <span>Monitoring</span>
+                <span>Python</span>
+              </div>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-badge">Infrastructure</div>
+              <h3>Windows Server Cybersecurity Lab</h3>
+              <p>
+                Laboratoire de mise en place d’Active Directory, DHCP, DNS, GPO,
+                intégration Linux au domaine, Samba et supervision Wazuh.
+              </p>
+              <div class="project-meta">
+                <span>Windows Server</span>
+                <span>AD</span>
+                <span>Cybersécurité</span>
+              </div>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-badge">Microservices</div>
+              <h3>SmartTraffic-IoT</h3>
+              <p>
+                Infrastructure microservices de supervision routière avec FastAPI,
+                Worker Python, Next.js et Docker, pensée pour des flux temps réel.
+              </p>
+              <div class="project-meta">
+                <span>Docker</span>
+                <span>FastAPI</span>
+                <span>Next.js</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Réseau</div>
+              <h3>Réseau Entreprise VLAN DHCP</h3>
+              <p>
+                Conception d’une architecture réseau d’entreprise avec subnetting,
+                VLAN, routage inter-VLAN, DHCP et sécurité de réseau.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Sécurité réseau</div>
+              <h3>Firewall Formation Lab</h3>
+              <p>
+                Mise en pratique de pare-feux OPNsense et FortiGate, règles de filtrage,
+                segmentation, VPN et protection des postes de travail.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Cybersécurité</div>
+              <h3>Security Agent</h3>
+              <p>
+                Détection d’intrusion, analyse de logs, corrélation d’alertes et
+                dashboard de visualisation pour un environnement de laboratoire sécurisé.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">CI/CD</div>
+              <h3>GH Deployment Workflow</h3>
+              <p>
+                Déploiement automatise d’un site web statique sur GitHub Pages via
+                GitHub Actions, illustrant les principes CI/CD.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <p class="section-tag">Proposition de message</p>
+          <h2>La ligne directrice à faire passer dans votre portfolio.</h2>
+          <blockquote>
+            Je développe et j’optimise des infrastructures informatiques en combinant
+            administration système, sécurité, supervision, automatisation et conteneurisation.
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-content">
+        <div>
+          <h3>Manoach HOSSOU DODO</h3>
+          <p>Admin Système • DevOps • Infrastructure • Sécurité</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/hdmanoach" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:hdmanoach@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
